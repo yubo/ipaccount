@@ -1,5 +1,5 @@
 #!/bin/env lua
-local ipacc = require("ipaccount")
+local ipacc = require("libipaccount")
 
 ipacc.ip_acc_init()
 ips = ipacc.get_account_table("lan")

@@ -2,9 +2,9 @@
 
 ## 带内核模块，需要安装kernel-devel, libnl-devel
 
-    autoreconf --install
-    ./configure
-    make
+	cd src
+    cmake .
+	make
     make install
 
 
